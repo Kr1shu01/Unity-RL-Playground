@@ -1,14 +1,14 @@
 # Unity RL Playground - MuJoCo Sim
 ## 1. 项目概览
-本项目用于开发基于 **Unity + MuJoCo 物理引擎** 的机器人强化学习 **sim2sim 仿真环境**，支持人形机器人在复杂工业场景中的双足行走强化学习策略验证以及上肢操作与下肢移动协同控制。场景为人形机器人工业训练场（简化版模块化工业厂区仿真环境），场景资产为untitled.usd（USD 格式，适用于 Unity 2021+）。项目深度集成了MuJoCo 3.3.x版本的高保真物理引擎，确保了机器人动力学计算的精确性，同时通过USD Core & Importer插件实现了复杂工业场景的高效导入和渲染。
+本项目用于开发基于 **Unity + MuJoCo 物理引擎** 的机器人强化学习 **sim2sim 仿真环境**，支持人形机器人在复杂工业场景中的双足行走强化学习策略验证以及上肢操作与下肢移动协同控制。场景为人形机器人工业训练场（简化版模块化工业厂区仿真环境），资产为USD 格式，适用于 Unity 2021+。项目深度集成了MuJoCo 3.3.x版本的高保真物理引擎，同时通过USD Core & Importer插件实现了复杂工业场景的高效导入和渲染。
 > 🔗 项目需配合 [`loongOpen/loong_sim_sdk_release`](https://github.com/loongOpen/loong_sim_sdk_release) 使用，可形成从前端可视化、物理仿真、控制通信到强化学习决策的完整技术链条，广泛适用于工业机器人安全培训、人形机器人运动控制研究、强化学习算法性能验证以及复杂环境下人机协作测试等多个应用场景。
 
 ---
 ## 2. 安装操作
 | Package | 版本要求 | 说明 |
 |--------|----------|------|
-| MuJoCo | `3.3.x` | 启用高保真物理仿真：[`安装教程`](https://mujoco.readthedocs.io/en/latest/unity.html) |
-| USD Core & Importer | `1.0.0` | 支持 `.usd` 场景导入 |
+| MuJoCo | `3.3.x` | 启用高保真物理仿真 [`安装教程`](https://mujoco.readthedocs.io/en/latest/unity.html) |
+| USD Core & Importer | `1.0.0` | 支持 `.usd` 场景导入 [`安装教程`](https://docs.unity3d.com/Packages/com.unity.importer.usd@1.0/manual/index.html) |
 
 1、克隆本项目 Mujoco 分支：git clone -b Mujoco ...  Unity打开后默认提示是否用安全模式，点击在安全模式下进入，之后按照提示安装以下几个插件。
 
