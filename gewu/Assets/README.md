@@ -17,8 +17,16 @@
 请确保以下包已正确安装并配置：
 | Package | 版本要求 | 说明 |
 |--------|----------|------|
-| MuJoCo | `3.3.3` | 启用高保真物理仿真：[`安装教程`](https://mujoco.readthedocs.io/en/latest/unity.html) |
+| MuJoCo | `3.3.x` | 启用高保真物理仿真：[`安装教程`](https://mujoco.readthedocs.io/en/latest/unity.html) |
 | USD Core & Importer | `1.0.0` | 支持 `.usd` 场景导入 |
+
+1️⃣ 克隆本项目 Mujoco 分支：git clone -b Mujoco ……  unity打开后默认提示是否用安全模式，点击在安全模式下进入，之后按照提示安装以下几个插件。
+
+2️⃣点击 Window >Package Manager > +按钮 > Add package from git URL...  输入https://github.com/google-deepmind/mujoco.git?path=/unity
+
+3️⃣点击 Window >Package Manager > +按钮 > Install package by name...  输入：com.unity.importer.usd
+
+4️⃣ 进入 Edit > Project Settings > Player > Other Settings > Allow 'unsafe' Code 开启允许非安全代码
 
 ---
 ## 3. 操作流程详解
