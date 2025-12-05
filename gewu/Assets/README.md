@@ -5,12 +5,12 @@
 
 ---
 ## 2. 安装操作
-克隆本项目 Mujoco 分支：`git clone -b Mujoco 仓库URL...`  Unity打开后默认提示是否用安全模式，点击在安全模式下进入，之后按照提示安装以下插件<br>
-1、点击 Window >Package Manager > +按钮 > Add package from git URL...  输入https://github.com/google-deepmind/mujoco.git?path=/unity<br>
-MuJoCo 3.3.x 启用高保真物理仿真 [`安装教程`](https://mujoco.readthedocs.io/en/latest/unity.html) <br>
-2、点击 Window >Package Manager > +按钮 > Install package by name...  输入：com.unity.importer.usd<br>
-USD Importer 1.0.0 支持.usd场景导入 [`安装教程`](https://docs.unity3d.com/Packages/com.unity.importer.usd@1.0/manual/index.html) <br>
-3、进入 Edit > Project Settings > Player > Other Settings > Allow 'unsafe' Code  开启允许"非安全代码"<br>
+克隆本项目 Mujoco 分支：`git clone -b Mujoco 仓库URL...`  Unity打开后默认提示是否用安全模式，点击在安全模式下进入，之后按照提示安装以下插件
+- 点击 Window >Package Manager > +按钮 > Add package from git URL...  输入https://github.com/google-deepmind/mujoco.git?path=/unity<br>
+MuJoCo 3.3.x 启用高保真物理仿真 [`安装教程`](https://mujoco.readthedocs.io/en/latest/unity.html)
+- 点击 Window >Package Manager > +按钮 > Install package by name...  输入：com.unity.importer.usd<br>
+USD Importer 1.0.0 支持.usd场景导入 [`安装教程`](https://docs.unity3d.com/Packages/com.unity.importer.usd@1.0/manual/index.html)
+- 进入 Edit > Project Settings > Player > Other Settings > Allow 'unsafe' Code  开启允许"非安全代码"<br>
 ---
 ## 3. 运行操作
 操作前检查：打开 Unity 项目，确认 Console 无报错（特别是 USD 导入或 MuJoCo 组件初始化异常）。<br>
