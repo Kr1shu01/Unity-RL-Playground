@@ -5,7 +5,7 @@
 
 ---
 ## 2. 安装操作
-克隆本项目 Mujoco 分支：git clone -b Mujoco 仓库URL...  Unity打开后默认提示是否用安全模式，点击在安全模式下进入，之后按照提示安装以下插件<br>
+克隆本项目 Mujoco 分支：`git clone -b Mujoco 仓库URL...`  Unity打开后默认提示是否用安全模式，点击在安全模式下进入，之后按照提示安装以下插件<br>
 1、点击 Window >Package Manager > +按钮 > Add package from git URL...  输入https://github.com/google-deepmind/mujoco.git?path=/unity<br>
 MuJoCo 3.3.x 启用高保真物理仿真 [`安装教程`](https://mujoco.readthedocs.io/en/latest/unity.html) <br>
 2、点击 Window >Package Manager > +按钮 > Install package by name...  输入：com.unity.importer.usd<br>
